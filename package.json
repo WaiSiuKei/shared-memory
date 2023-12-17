@@ -1,0 +1,23 @@
+{
+  "name": "test-transfer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "sh script/build.sh",
+    "build:worker": "sh script/build-worker.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^5.0.10"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "typescript": "^5.3.3",
+    "vite-plugin-checker": "^0.6.2",
+    "vite-plugin-top-level-await": "^1.4.1"
+  }
+}
